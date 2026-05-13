@@ -5,47 +5,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="main">
+    <main>
         <div class="left">
             <div class="navbar">
                 <div class="logo">
                     <h1>INSPECT</h1>
                 </div>
-                <div class="searchbar" >
-                    <input type="text" placeholder="Search...">
+                <div class="searchbar">
+                    <i class="ri-search-line"></i>
+                    <span>Search...</span>
+
+
                 </div>
             </div>
             <div class="contents">
-                <h1>Classification</h1>
+                <div class="content1">
+                    <h1>Classification</h1>
+                </div>
+                <div class="content2">
+                    <ul class="ul">
+                        <li>
+                            <span>Class:</span>
+                            <p>Insecta</p>
+                        </li>
+
+                        <li>
+                            <span>Order:</span>
+                            <p>Coleoptera</p>
+                        </li>
+
+                        <li>
+                            <span>Family:</span>
+                            <p>Cerambycidae</p>
+                        </li>
+
+                        <li>
+                            <span>Sub-Family:</span>
+                            <p>Cerambycinae</p>
+                        </li>
+
+                        <li>
+                            <span>Tribe:</span>
+                            <p>Callichromatini</p>
+                        </li>
+
+                        <li>
+                            <span>Genus:</span>
+                            <p>Pachyteria</p>
+                        </li>
+                    </ul>
+                </div>
+
+
             </div>
         </div>
 
-        <img src="image1.png" alt="image not found">
+        <img class="image" src="image1.png" alt="image not found">
 
         <div class="right">
             <div class="navbar2">
-                <div>Home</div>
-                <div>Shop</div>
-                <div>About</div>
-                <div>Gallary</div>
-                <div>Contact</div>
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">About</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact</a>
             </div>
-            <div class="content">
+            <section>
                 <div class="heading">
-                    <h1>Pachyteria equestris</h1>
+                    <h1>Pachyteria <br>equestris</h1>
                 </div>
-                <div class="">
-                    <img src="" alt="">
-                    
-                    <div></div>
+                <div class="info">
+                    <img src="model.png" alt="image not found">
+                    <hr>
+                    <div class="info2">
+                        <div class="sub-info">
+                            <i class="ri-map-pin-line"></i>
+                            <p>Locality:<br>Malaysia</p>
+                        </div>
+                        <div class="sub-info">
+                            <i class="ri-men-line"></i>
+                            <p>Gender:<br>Male</p>
+                        </div>
+                        <div class="sub-info">
+                            <i class="ri-ruler-line"></i>
+                            <p>Size:<br>32 mm / 12 mm</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
+
+                <h3>$5.99</h3>
+                <div class="detail">
+                    <div class="toggle-row">
+                        <div class="toggle"></div>
+                        <p>View detailed antennae</p>
+                    </div>
+
+                    <div class="toggle-row">
+                        <div class="toggle"></div>
+                        <p>View underside</p>
+                    </div>
+                </div>
+
+                <button>Add to collection</button>
+
+            </section>
         </div>
-    </div>
+    </main>
 </body>
+
 </html>
